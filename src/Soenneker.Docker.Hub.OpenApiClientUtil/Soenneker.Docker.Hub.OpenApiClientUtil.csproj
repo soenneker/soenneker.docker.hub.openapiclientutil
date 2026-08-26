@@ -44,8 +44,8 @@
 
     <ItemGroup>
         <PackageReference Include="Soenneker.Kiota.GenericAuthenticationProvider" Version="4.0.38" />
-        <PackageReference Include="Soenneker.Docker.Hub.HttpClients" Version="4.0.9" />
+        <PackageReference Include="Soenneker.Docker.Hub.HttpClients" Version="4.0.10" />
         <PackageReference Include="Soenneker.Docker.Hub.OpenApiClient" Version="4.0.4" />
-        <PackageReference Include="Soenneker.Utils.AsyncSingleton" Version="4.0.819" />
+        <PackageReference Include="Soenneker.Utils.AsyncSingleton" Version="4.0.820" />
     </ItemGroup>
 </Project>
