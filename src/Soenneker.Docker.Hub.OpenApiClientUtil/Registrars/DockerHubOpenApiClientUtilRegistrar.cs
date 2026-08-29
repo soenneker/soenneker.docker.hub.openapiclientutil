@@ -13,6 +13,8 @@ public static class DockerHubOpenApiClientUtilRegistrar
     /// <summary>
     /// Adds <see cref="DockerHubOpenApiClientUtil"/> as a singleton service. <para/>
     /// </summary>
+    /// <param name="services">Service collection that receives the registration.</param>
+    /// <returns>The same service collection, so additional registrations can be chained.</returns>
     public static IServiceCollection AddDockerHubOpenApiClientUtilAsSingleton(this IServiceCollection services)
     {
         services.AddDockerHubOpenApiHttpClientAsSingleton()
@@ -24,6 +26,8 @@ public static class DockerHubOpenApiClientUtilRegistrar
     /// <summary>
     /// Adds <see cref="DockerHubOpenApiClientUtil"/> as a scoped service. <para/>
     /// </summary>
+    /// <param name="services">Service collection that receives the registration.</param>
+    /// <returns>The same service collection, so additional registrations can be chained.</returns>
     public static IServiceCollection AddDockerHubOpenApiClientUtilAsScoped(this IServiceCollection services)
     {
         services.AddDockerHubOpenApiHttpClientAsSingleton()
