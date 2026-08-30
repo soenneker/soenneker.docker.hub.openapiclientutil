@@ -4,14 +4,14 @@ using System.Threading;
 using System.Threading.Tasks;
 namespace Soenneker.Docker.Hub.OpenApiClientUtil.Abstract;
 /// <summary>
-/// Exposes a cached OpenAPI client instance.
+/// Provides access to a cached, configured Docker Hub OpenAPI client.
 /// </summary>
 public interface IDockerHubOpenApiClientUtil: IDisposable, IAsyncDisposable
 {
     /// <summary>
-    /// Returns the configured docker Hub OpenAPI Client used by the Docker Hub OpenAPI Client.
+    /// Returns the configured Docker Hub OpenAPI client for this utility's lifetime.
     /// </summary>
     /// <param name="cancellationToken">Token used to cancel the operation.</param>
-    /// <returns>A task whose result is the requested docker Hub OpenAPI Client.</returns>
+    /// <returns>A task whose result is the cached Docker Hub OpenAPI client.</returns>
     ValueTask<DockerHubOpenApiClient> Get(CancellationToken cancellationToken = default);
 }
