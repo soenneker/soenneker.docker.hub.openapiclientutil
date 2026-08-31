@@ -5,7 +5,7 @@
 
 # Soenneker.Docker.Hub.OpenApiClientUtil
 
-Provides a dependency-injection-friendly, cached instance of the generated Docker Hub API client.
+Provides a lazily created, cached Docker Hub API client backed by the configured Docker Hub HTTP provider.
 
 ## Installation
 
