@@ -45,6 +45,6 @@
     <ItemGroup>
         <PackageReference Include="Soenneker.Docker.Hub.HttpClients" Version="4.0.17" />
         <PackageReference Include="Soenneker.Docker.Hub.OpenApiClient" Version="4.0.6" />
-        <PackageReference Include="Soenneker.Utils.AsyncSingleton" Version="4.0.820" />
+        <PackageReference Include="Soenneker.Utils.AsyncSingleton" Version="4.0.829" />
     </ItemGroup>
 </Project>
