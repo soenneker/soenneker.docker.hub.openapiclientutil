@@ -13,6 +13,7 @@ using Soenneker.Utils.AsyncSingleton;
 
 namespace Soenneker.Docker.Hub.OpenApiClientUtil;
 
+/// <inheritdoc cref="IDockerHubOpenApiClientUtil" />
 public sealed class DockerHubOpenApiClientUtil : IDockerHubOpenApiClientUtil
 {
     private readonly AsyncSingleton<DockerHubOpenApiClient> _client;
