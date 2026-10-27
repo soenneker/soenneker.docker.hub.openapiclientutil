@@ -46,7 +46,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Soenneker.Docker.Hub.HttpClients" Version="4.0.80" />
+        <PackageReference Include="Soenneker.Docker.Hub.HttpClients" Version="11.0.84" />
         <PackageReference Include="Soenneker.Docker.Hub.OpenApiClient" Version="11.0.37" />
     </ItemGroup>
 </Project>
